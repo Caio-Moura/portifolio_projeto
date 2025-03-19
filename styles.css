@@ -1,0 +1,93 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #333, #fff);
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    color: #555;
+}
+
+/* Estilo da foto inicial */
+.foto-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.foto {
+    border-radius: 50%;
+    border: 5px solid red;
+    width: 150px;
+    height: 150px;
+}
+
+/* Seção de Skills */
+#skills {
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills li {
+    margin: 10px 0;
+}
+
+/* Seção com Fundo Preto */
+#fundo-preto .div-preto {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Seção de Hobbies */
+#hobbies {
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.foto-espaco {
+    border: 2px dashed #555;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Seção de Experiência */
+#experiencia {
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Roda pé */
+footer {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contato {
+    text-align: left;
+}
+
+.controles {
+    text-align: right;
+}
+
+.controle {
+    width: 50px;
+    margin-left: 10px;
+}
